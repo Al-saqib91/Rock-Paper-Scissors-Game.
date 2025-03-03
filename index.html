@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>RPS GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><u>RPS-GAME</u></h1>
+        <div class="box">
+            <button onclick="rock()" id="movebutton">
+                <img src="image/hand.png" height="110px" width="110px">
+            </button>
+            <button onclick="paper()" id="movebutton">
+                <img src="image/hand-paper.png" height="110px" width="110px">
+            </button>
+            <button onclick="scissor()" id="movebutton">
+                <img src="image/scissors.png" height="110px" width="110px">
+            </button><br><br>
+
+            <p id="result" style="display: inline;"></p><br>
+            <p id="write" style="display: inline;"></p><br><br>
+            <button id="scorebutton">YOUR SCORE  = <span id="yourscore">0</span></button>
+            <button id="scorebutton">COMPUTER SCORE = <span id="computerscore">0</span></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>

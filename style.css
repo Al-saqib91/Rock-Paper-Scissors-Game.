@@ -1,0 +1,54 @@
+body,html{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+.container{
+    background-color: rgb(166, 143, 181);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url(image/RPS-img.jpg) */
+}
+.box{
+    background-color: rgb(154, 174, 188);
+    padding: 70px 50px;
+    border: 7px solid rgb(80, 84, 102);
+    border-radius: 30px;
+    text-align: center;
+    /* background: transparent; */
+    rotate: 360% red;
+    
+}
+h1{
+    color: rgb(28, 23, 36);
+    font-size: 36px;
+}
+#movebutton{
+    background-color: rgb(81, 77, 76);
+    margin: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 10px;
+    border-radius: 200px;
+}
+#movebutton:hover{
+    transform: scale(0.9);
+    background-color: rgb(121, 136, 129);
+}
+#result,#write{
+    font-size: 18px;
+    color: rgb(181, 43, 116);
+}
+#scorebutton{
+    font-size: 17px;
+    width: 220px;
+    height: 40px;
+    color: rgb(29, 68, 85);
+    border: 2px solid rgb(69, 121, 157);
+    border-radius: 20px;
+    background-color: rgb(153, 159, 164);
+    margin: 2px;
+}
